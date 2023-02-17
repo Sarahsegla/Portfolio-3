@@ -1,0 +1,115 @@
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(245, 224, 106);
+    font-family: 'Gruppo', cursive;
+}
+footer {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+}
+.navbar-brand {
+    font-family: 'Londrina Outline', cursive;
+    font-size: 2.5rem;
+}
+aside {
+    font-family: 'Gruppo', cursive;
+    font-size: 2rem;
+    box-shadow: inset 5px 0 5px -5px gold;
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+.skills {
+    box-shadow: 10px 10px 5px 12px gold;
+    box-sizing: border-box;
+}
+.display-4 {
+font-family: 'Gruppo', cursive;
+}
+.card-title {
+    font-family: 'Gruppo', cursive;
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Gruppo', cursive;
+
+  
+}
+.jumbotron {
+    background-image: url(../images/back.jpg);
+}
+
+.bg-light {
+    background-color: rgb(245, 224, 106) !important;
+}
+.btn:hover {
+    box-shadow: 4px 4px 5px 6px gold;
+}
+.nav-link:hover, #contactMe:hover {
+    font-size: 2.5rem;
+}
+/* .container {
+   display: flex;
+   
+   */
+@media screen and (max-width:375px){
+    footer {
+        width: 155%;
+        
+    }
+    .contact {
+        width: 155%;
+    }
+    .skills {
+        width:147%;
+    }
+    header {
+        width:155%;
+    }
+    figure {
+        width:155%;
+    }
+    
+}
+@media screen and (max-width:320px){
+    footer {
+        width: 180%;
+    background-color: pink;
+        
+    }
+    .contact {
+        width: 180%;
+    }
+    .skills {
+        width:177%;
+    }
+    header {
+        width:180%;
+    }
+    figure {
+        width:180%;
+    }
+    
+}
+@media screen and (max-width:768px){
+    footer {
+        width: 135%;
+    
+        
+    }
+    .contact {
+        width: 135%;
+    }
+    .skills {
+        width:132%;
+    }
+    header {
+        width:135%;
+    }
+    figure {
+        width:135%;
+    }
+    
+}
