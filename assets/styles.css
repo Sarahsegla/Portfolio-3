@@ -26,16 +26,20 @@ aside {
 }
 .display-4 {
 font-family: 'Gruppo', cursive;
+color: white;
 }
 .card-title {
     font-family: 'Gruppo', cursive;
+    color: white;
 }
 .navbar-collapse {
     display: flex;
     justify-content: flex-end;
     font-family: 'Gruppo', cursive;
+    color: white;
 
 }
+
 
 
 .jumbotron {
@@ -44,14 +48,23 @@ background-image: url(../images/ebba-thoresson-O9vsfZq8UWw-unsplash.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+
+
 }
 
-/* .navbar { 
-    background: transparent;
-} */
-/* .jumbotron {
-    
-} */
+#navbarSupportedContent {
+    color: white;
+}
+
+.mypic {
+    width:200px;
+    border-radius: 50%;
+display: block;
+  margin-left: 75%;
+ 
+  
+}
+
 
 .bg-light {
     background-color: rgb(245, 224, 106) !important;
