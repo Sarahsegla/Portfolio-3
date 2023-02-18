@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 .contact {
     display: flex;
     justify-content: space-evenly;
@@ -48,10 +51,12 @@ background-image: url(../images/ebba-thoresson-O9vsfZq8UWw-unsplash.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-
-
 }
 
+.jumbotron2 {
+background-color: rgb(27, 25, 25);
+
+}
 #navbarSupportedContent {
     color: white;
 }
@@ -72,11 +77,26 @@ display: block;
   margin-left: 54%; */
   color: red;
 }
+.display-5 {
+    border-bottom: red 3px solid;
+    /* padding-bottom: 30px; */
+
+}
 
 .lead {
     /* display: flex;
     margin-left: 54%; */
     color: white;
+}
+
+.firstRows {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.secondRows {
+    padding-bottom: 200px;
+    background-color: black;
 }
 
 
