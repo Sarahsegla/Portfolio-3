@@ -55,7 +55,18 @@ background-size: cover;
 
 .jumbotron2 {
 background-color: rgb(27, 25, 25);
+color: white;
+font-family: 'Gruppo', cursive;
 
+
+}
+
+.card {
+    background-color: black;
+}
+
+.card-body {
+    border: 1px red solid;
 }
 #navbarSupportedContent {
     color: white;
@@ -99,6 +110,11 @@ display: block;
     background-color: black;
 }
 
+.boutMe {
+    list-style-type:none;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
 
 .bg-light {
     background-color: rgb(245, 224, 106) !important;
