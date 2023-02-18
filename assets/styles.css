@@ -57,12 +57,26 @@ background-size: cover;
 }
 
 .mypic {
-    width:200px;
+    width:300px;
     border-radius: 50%;
 display: block;
   margin-left: 75%;
- 
-  
+}
+
+.navbar-brand {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.display-4 {
+    /* display: flex;
+  margin-left: 54%; */
+  color: red;
+}
+
+.lead {
+    /* display: flex;
+    margin-left: 54%; */
+    color: white;
 }
 
 
