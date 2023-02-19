@@ -18,15 +18,12 @@ footer {
 aside {
     font-family: 'Gruppo', cursive;
     font-size: 2rem;
-    box-shadow: inset 5px 0 5px -5px gold;
+    box-shadow: inset 5px 0 5px -5px red;
     width: 40%;
     padding-left: 0.5rem;
     margin-left: 0.5rem;
 }
-.skills {
-    box-shadow: 10px 10px 5px 12px gold;
-    box-sizing: border-box;
-}
+
 .display-4 {
 font-family: 'Gruppo', cursive;
 color: white;
@@ -106,6 +103,19 @@ display: block;
     padding-bottom: 150px;
 }
 
+.mySkills {
+    background-color: gray;
+    padding: 40px;
+    list-style-type: none;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    font-family: 'Gruppo', cursive;
+
+}
+.paraSkills {
+    font-size: 40px;
+}
+
 .secondRows {
     padding-bottom: 200px;
     background-color: black;
@@ -123,12 +133,6 @@ h2 {
 .bg-light {
     background-color: rgb(245, 224, 106) !important;
 }
-.btn:hover {
-    box-shadow: 4px 4px 5px 6px gold;
-}
-.nav-link:hover, #contactMe:hover {
-    font-size: 2.5rem;
-}
 
 .reveal {
     position: relative;
@@ -141,6 +145,20 @@ h2 {
     transform: translateY(0px);
     opacity: 1;
 }
+.section-title {
+    text-align: center;
+    font-size: 50px;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+
+/* #box-1 {
+    background-color: red;
+} */
+
+
+
+
 
 /* .container {
    display: flex;
