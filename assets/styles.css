@@ -4,12 +4,16 @@ body {
 .contact {
     display: flex;
     justify-content: space-evenly;
-    background-color:  rgb(245, 224, 106);
+    background-color:  rgb(27, 25, 25);
     font-family: 'Gruppo', cursive;
+    color: white;
 }
+
+
 footer {
     text-align: center;
     font-family: 'Gruppo', cursive;
+    color: white;
 }
 .navbar-brand {
     font-family: 'Londrina Outline', cursive;
@@ -38,6 +42,10 @@ color: white;
     font-family: 'Gruppo', cursive;
     color: white;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -104,12 +112,13 @@ display: block;
 }
 
 .mySkills {
-    background-color: gray;
+    background-color: rgb(27, 25, 25);
     padding: 40px;
     list-style-type: none;
     border-left: 1px solid red;
     border-right: 1px solid red;
     font-family: 'Gruppo', cursive;
+    color: white;
 
 }
 .paraSkills {
@@ -148,6 +157,10 @@ h2 {
 .section-title {
     text-align: center;
     font-size: 50px;
+}
+
+#linkedin {
+    color: inherit;
 }
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
