@@ -57,6 +57,7 @@ background-size: cover;
 background-color: rgb(27, 25, 25);
 color: white;
 font-family: 'Gruppo', cursive;
+padding: 30px;
 
 
 }
@@ -127,6 +128,18 @@ h2 {
 }
 .nav-link:hover, #contactMe:hover {
     font-size: 2.5rem;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+
+}
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 /* .container {
