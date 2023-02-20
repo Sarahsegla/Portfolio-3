@@ -187,63 +187,34 @@ h2 {
      'opsz' 48;
    } */
 
+   @media (max-width: 432px) {
+    .mypic {
+        margin-left: 15%;
+    }
 
-@media screen and (max-width:375px){
+    .contact {
+        font-size: 8px;
+
+    }
     footer {
-        width: 155%;
+        width: 150%;
         
     }
-    .contact {
-        width: 155%;
-    }
-    .skills {
-        width:147%;
-    }
-    header {
-        width:155%;
-    }
-    figure {
-        width:155%;
-    }
     
-}
-@media screen and (max-width:320px){
+   }
+
+   @media (max-width: 390px) {
+    .mypic {
+        margin-left: 15%;
+    }
+
+    .contact {
+        font-size: 8px;
+
+    }
     footer {
-        width: 180%;
-    background-color: pink;
+        width: 150%;
         
     }
-    .contact {
-        width: 180%;
-    }
-    .skills {
-        width:177%;
-    }
-    header {
-        width:180%;
-    }
-    figure {
-        width:180%;
-    }
     
-}
-@media screen and (max-width:768px){
-    footer {
-        width: 135%;
-    
-        
-    }
-    .contact {
-        width: 135%;
-    }
-    .skills {
-        width:132%;
-    }
-    header {
-        width:135%;
-    }
-    figure {
-        width:135%;
-    }
-    
-}
+   }
